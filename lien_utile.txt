@@ -1,0 +1,18 @@
+// Lien vers la page du cours pour le script d'installation
+https://info.cegepmontpetit.ca/5N6-mobile-2/
+
+
+// Repo contenant les exemples données par le prof
+https://github.com/departement-info-cem/5N6-mobile-2/tree/main
+
+
+// Lien vers la branche contenant les quelques exercices que j'ai fais
+https://github.com/ZacharyTanguay/420-5N6/tree/main
+
+
+// Lien vers mon formatif
+https://github.com/ZacharyTanguay/420-5N6/tree/formatif-intra
+
+
+// Lien vers mon tp
+https://github.com/Travaux-et-remises/tp1-client-flutter-ZacharyTanguay
