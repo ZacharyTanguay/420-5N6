@@ -1,36 +1,26 @@
 {
   "project_info": {
-    "project_number": "508795911513",
-    "project_id": "examendefeu-a22",
-    "storage_bucket": "examendefeu-a22.appspot.com"
+    "project_number": "637616792862",
+    "project_id": "examen-80f0c",
+    "storage_bucket": "examen-80f0c.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:508795911513:android:8e5a236474f1c0c314a048",
+        "mobilesdk_app_id": "1:637616792862:android:d77ff6fd3df0cc2509d50f",
         "android_client_info": {
           "package_name": "cem.formatif.firebase_start"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "508795911513-n93nu0oj73aeedlop1lara3jqoekn6f6.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDnFGXPOLiPbhtSFS-JosPPCBQmIQz0E38"
+          "current_key": "AIzaSyD3TwuZRQMxfw_eoF9HTH5WJiqQiXS2CKU"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "508795911513-n93nu0oj73aeedlop1lara3jqoekn6f6.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }

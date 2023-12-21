@@ -50,20 +50,19 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDnFGXPOLiPbhtSFS-JosPPCBQmIQz0E38',
-    appId: '1:508795911513:android:8e5a236474f1c0c314a048',
-    messagingSenderId: '508795911513',
-    projectId: 'examendefeu-a22',
-    storageBucket: 'examendefeu-a22.appspot.com',
+    apiKey: 'AIzaSyD3TwuZRQMxfw_eoF9HTH5WJiqQiXS2CKU',
+    appId: '1:637616792862:android:d77ff6fd3df0cc2509d50f',
+    messagingSenderId: '637616792862',
+    projectId: 'examen-80f0c',
+    storageBucket: 'examen-80f0c.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBolXORXc1cOYUID4WRUrhcgUD8NRyKeVg',
-    appId: '1:508795911513:ios:85c5703f0f7b237c14a048',
-    messagingSenderId: '508795911513',
-    projectId: 'examendefeu-a22',
-    storageBucket: 'examendefeu-a22.appspot.com',
-    iosClientId: '508795911513-o3mct31kcngs4dafhq14g4cnksdh5p4o.apps.googleusercontent.com',
+    apiKey: 'AIzaSyCjCHE05sZNgC0xg4lccPWcxwBp02KBnEc',
+    appId: '1:637616792862:ios:5ff7382755fef81209d50f',
+    messagingSenderId: '637616792862',
+    projectId: 'examen-80f0c',
+    storageBucket: 'examen-80f0c.appspot.com',
     iosBundleId: 'cem.formatif.firebaseStart',
   );
 }
