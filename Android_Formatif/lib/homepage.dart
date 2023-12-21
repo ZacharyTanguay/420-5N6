@@ -1,5 +1,8 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_start/models/firestore.dart';
+import 'package:firebase_start/service.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key, required this.title}) : super(key: key);
@@ -27,6 +30,17 @@ class _HomePageState extends State<HomePage> {
     });
   }
 
+  void _add() {
+    final db = FirebaseFirestore.instance;
+
+    Firestore firestore = Firestore();
+    firestore.firstName = "Zachary";
+    firestore.lastName = "Tanguay";
+    firestore.expectedExamScore = 100;
+
+    var res = add(firestore);
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -48,7 +62,7 @@ class _HomePageState extends State<HomePage> {
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
+        onPressed: _add,
         tooltip: 'Increment',
         child: const Icon(Icons.add),
       ),
